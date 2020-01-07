@@ -1,5 +1,5 @@
-import { random, routeRobot, runRobot } from './robot.js'
+import { random, goalOrientedRobot, runRobot } from './robot.js'
 
 
-runRobot(random(), routeRobot, [])
+runRobot(random(), goalOrientedRobot, [])
 
